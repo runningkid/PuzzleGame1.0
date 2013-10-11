@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chunya.puzzlegame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.chunya.puzzlegame.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation = "portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chunya.puzzlegame.ShowImage"
+            android:label="@string/title_activity_single_image"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation = "portrait">
+        </activity>
+        <activity
+            android:name="com.chunya.puzzlegame.Play"
+            android:label="@string/title_activity_play" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation = "portrait">
+        </activity>
+        <activity
+            android:name="com.chunya.puzzlegame.ShowCongrats"
+            android:label="@string/title_activity_show_congrats" 
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation = "portrait">
+        </activity>
+    </application>
+
+</manifest>

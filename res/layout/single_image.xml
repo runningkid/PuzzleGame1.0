@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     	android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:weightSum="12">
+	    
+    <ImageView
+ 		android:id="@+id/single_photo"
+		android:layout_width="wrap_content"
+		android:layout_height="0px"
+		android:layout_weight="9"
+		android:layout_gravity="center"/>
+
+	<Button 
+	    android:id="@+id/split3by3"
+	    android:text="@string/easy"
+	    android:textSize = "15sp"
+	    android:layout_width = "120dp"
+	    android:layout_height = "0px"
+	    android:layout_weight = "1"
+	    android:layout_gravity="center"/>
+	<Button 
+	    android:id="@+id/split4by4"
+	    android:text="@string/normal"
+	    android:textSize = "15sp"
+	    android:layout_width = "120dp"
+	    android:layout_height = "0px"
+	    android:layout_weight = "1"
+	    android:layout_gravity="center"/>
+	<Button 
+	    android:id="@+id/split5by5"
+	    android:text="@string/hard"
+	    android:textSize = "15sp"
+	    android:layout_width = "120dp"
+	    android:layout_height = "0px"
+	    android:layout_weight = "1"
+	    android:layout_gravity="center"
+	        />
+</LinearLayout>

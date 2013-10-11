@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PuzzleGame</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_image">Single_image</string>
+    <string name="easy">Easy Mode</string>
+    <string name="normal">Normal Mode</string>
+    <string name="hard">Hard Mode</string>
+    <string name="title_activity_play">Play</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="congrats">Congratuations!</string>
+    <string name="title_activity_show_congrats">ShowCongrats</string>
+
+</resources>

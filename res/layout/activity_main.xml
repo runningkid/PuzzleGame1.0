@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:id="@+id/mainview" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="6"
+	android:orientation="vertical">
+
+	    <GridView
+		android:id="@+id/gridview"
+		android:layout_width="fill_parent" 
+		android:layout_height="0px"
+		android:columnWidth="100dp"
+		android:numColumns="auto_fit"
+		android:verticalSpacing="1dp"
+		android:horizontalSpacing="1dp"
+		android:stretchMode="columnWidth"
+		android:gravity="center"
+		android:isScrollContainer="true"
+		android:layout_weight="5"/>
+	    
+	    <RelativeLayout
+	        android:layout_width = "fill_parent"
+	        android:layout_height= "0px"
+	        android:orientation = "horizontal"
+	        android:layout_weight="1">
+	        <ImageView 
+	            android:id = "@+id/addpicfrm"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentBottom="true"
+	            android:layout_marginLeft="20dp"
+	            android:layout_width = "wrap_content"
+	            android:layout_height = "wrap_content"
+	            android:src="@drawable/content_new_picture">
+	        </ImageView>			<ImageView 
+	            android:id = "@+id/delpicfrm"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentBottom="true"
+	            android:layout_marginRight="20dp"
+	            android:layout_width = "wrap_content"
+	            android:layout_height = "wrap_content"
+	            android:src="@drawable/content_discard">
+	        </ImageView>	
+	    </RelativeLayout>
+	
+</LinearLayout>
